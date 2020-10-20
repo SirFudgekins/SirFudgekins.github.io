@@ -1,8 +1,16 @@
 * {
+    color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
     /* font-family: 'Courier New', Courier, monospace; */
 }
@@ -53,50 +61,11 @@
 }
 
 .home_row {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-left: 1em;
     margin-right: 1em;
-}
-
-.section_link {
-    display: inline-block;
-}
-
-.section_icon {
-    display: inline-flex;
-    background-color: white;
-    border-radius: 30px;
-    height: 20em;
-    width: 20em;
-    margin: 0 6.05em;
-    float: left;
-}
-
-#home_github_icon {
-    max-width: 95%;
-    max-height: 95%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#home_projects_icon {
-    display: block;
-    height: 250px;
-    width: 250px;
-    margin-left: 2em;
-    margin-top: 2em;
-}
-
-#home_work_icon {
-    display: block;
-    height: 320px;
-    width: 320px;
-}
-
-.section_icon_text {
-    display: block;
-    text-align: center;
 }
 
 nav {
@@ -137,7 +106,7 @@ nav button {
 #sadge {
     margin-top: 2em;
     margin-bottom: 2em;
-    max-width: 10%;
+    max-width: 70%;
     height: auto;
     width: auto;
     margin-left: auto;
@@ -146,7 +115,6 @@ nav button {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 25px;
     backdrop-filter: blur(3px);
-    text-align: center;
 }
 
 .text_box {
@@ -162,6 +130,49 @@ nav button {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 25px;
     backdrop-filter: blur(10px);
+}
+
+.fab, .fas{
+    margin: 0.25em;
+    line-height: 2em !important;
+    width: 100px;
+    height: 100px;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.fab:hover, .fas:hover{
+    opacity: 0.7;
+}
+
+.socials {
+    text-decoration: none;
+    border-radius: 50%;
+    max-height: 120px;
+    max-width: 120px;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background:white;
+    color: black;
+}
+
+.fa-film {
+    background:white;
+    color: black;
+}
+
+.fa-spotify {
+    background: #1DB954;
+    color: black;
 }
 
 @media only screen and (max-width: 500px) {

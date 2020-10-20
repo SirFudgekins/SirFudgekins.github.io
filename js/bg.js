@@ -8,7 +8,7 @@ let particlesArray;
 let mouse = {
     x: null,
     y: null,
-    radius: (canvas.height / 1000) * (canvas.width / 1000),
+    radius: (canvas.height / 10000) * (canvas.width / 10000),
 }
 
 window.addEventListener('mousemove', 
@@ -74,7 +74,7 @@ class Particle {
 
 function init() {
     particlesArray = [];
-    let numberOfParticles = (canvas.height * canvas.width) / 9000;
+    let numberOfParticles = (canvas.height * canvas.width) / 18000;
 
     for (let i = 0; i < numberOfParticles * 2; i++) {
         let size = (Math.random() * 5) + 1;
