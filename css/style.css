@@ -75,7 +75,7 @@ nav {
 nav li {
     list-style-type: none;
     margin: 0 1.5vw;
-    font-size: 3vh;
+    font-size: 1.75em;
 }
 
 nav a {
@@ -180,9 +180,11 @@ nav button {
         flex-direction: column;
     }
 
-    nav li {
+    nav ul li {
         margin: 0;
         display: none;
+        padding-left: 1em;
+        padding-bottom: 0.5em;
     }
 
     nav a {
