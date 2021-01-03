@@ -51,10 +51,11 @@ body {
     width: auto;
     margin-left: auto;
     margin-right: auto;
-    background: rgb(12, 12, 12); /* Fallback for older browsers without RGBA-support */
-    background: rgba(12, 12, 12, 0.5);
+    background: rgb(41, 40, 40); /* Fallback for older browsers without RGBA-support */
+    background: rgb(41, 40, 40, 0.5); 
     border-radius: 25px;
     backdrop-filter: blur(3px);
+    padding: 1em;
 }
 
 #introduction p {
@@ -79,12 +80,12 @@ nav li {
     font-size: 1.75em;
 }
 
-nav a {
+nav a, .text_box a {
     text-decoration: none;
     font-size: 1em;
 }
 
-nav a:hover {
+nav a:hover, .text_box a:hover {
     text-decoration: underline;
 }
 
@@ -112,8 +113,8 @@ nav button {
     width: auto;
     margin-left: auto;
     margin-right: auto;
-    background: rgb(12, 12, 12); /* Fallback for older browsers without RGBA-support */
-    background: rgba(12, 12, 12, 0.5);
+    background: rgb(41, 40, 40); /* Fallback for older browsers without RGBA-support */
+    background: rgb(41, 40, 40, 0.5); 
     border-radius: 25px;
     backdrop-filter: blur(3px);
 }
@@ -127,8 +128,8 @@ nav button {
     width: auto;
     margin-left: auto;
     margin-right: auto;
-    background: rgb(12, 12, 12); /* Fallback for older browsers without RGBA-support */
-    background: rgba(12, 12, 12, 0.5);
+    background: rgb(41, 40, 40); /* Fallback for older browsers without RGBA-support */
+    background: rgb(41, 40, 40, 0.5); 
     border-radius: 25px;
     backdrop-filter: blur(10px);
 }
